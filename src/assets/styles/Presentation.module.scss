@@ -1,0 +1,18 @@
+@import './constants.scss';
+
+.Presentation {
+  background-color: $blue;
+  height: 90vh;
+  .fullScreen {
+    height: 90vh;
+  }
+  .image-container {
+    height: inherit;
+    img {
+      height: 100%;
+      position: absolute;
+      left: -70px;
+    }
+  }
+}
+

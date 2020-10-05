@@ -6,8 +6,8 @@ const NavbarComponent = () => (
   <Navbar bg="light" expand="lg">
     <Navbar.Brand href="#home">Dr. Camila Genz</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
-    <Navbar.Collapse id="basic-navbar-nav">
-      <Nav className="mr-auto">
+    <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+      <Nav>
         <Nav.Link href="#home">Antendimentos</Nav.Link>
         <Nav.Link href="#link">Curriculo</Nav.Link>
         <Nav.Link href="#link">Contato</Nav.Link>
