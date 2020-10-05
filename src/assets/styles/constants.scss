@@ -1,1 +1,12 @@
-$blue: #749eac;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+$blue: #97bac6;
+
+@mixin title-font {
+  font-family: 'Quicksand', sans-serif;
+}
+
+@mixin body-font {
+  font-family: 'Open Sans', sans-serif;
+}

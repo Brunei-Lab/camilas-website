@@ -1,1 +1,7 @@
 @import "~bootstrap/scss/bootstrap";
+@import "./custom.scss";
+@import "./constants.scss";
+
+.App {
+  @include body-font;
+}

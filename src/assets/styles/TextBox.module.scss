@@ -1,0 +1,17 @@
+@import './constants.scss';
+
+.TextBox {
+  margin-top: 35%;
+  background-color: transparent !important;
+  h1 {
+    @include title-font;
+  }
+  p {
+    font-size: 19px;
+  }
+  button {
+    padding: 10px 16px;
+    font-size: 19px;
+    color: #000;
+  }
+}
