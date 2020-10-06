@@ -2,6 +2,6 @@
 @import "./custom.scss";
 @import "./constants.scss";
 
-.App {
+body {
   @include body-font;
 }

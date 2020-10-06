@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import styles from '../assets/styles/TextBox.module.scss';
 
 const TextBox = ({ text, button }) => (
-  <Jumbotron className={styles.TextBox}>
+  <Jumbotron className={`${styles.TextBox} ml-4 mr-5`}>
     <h1 className="mb-3">{text.title}</h1>
     <p className="mb-4">
       {text.paragraph}
