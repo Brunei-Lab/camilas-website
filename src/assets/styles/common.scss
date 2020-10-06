@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+// ---- Colors
+
+$blue: #97bac6;
+$coral: #d2b0b0;
+
+// ---- Breakpoint
+
+@mixin breakpoint($point) {
+  @if $point == xl {
+    @media (min-width: 1200px) { @content ; }
+  }
+  @else if $point == lg {
+    @media (min-width: 992px) { @content ; }
+  }
+  @else if $point == md {
+    @media (min-width: 768px) { @content ; }
+  }
+  @else if $point == sm {
+    @media (min-width: 576px)  { @content ; }
+  }
+}
+
+
+// ---- Fonts
+
+@mixin title-font {
+  font-family: 'Quicksand', sans-serif;
+}
+
+@mixin body-font {
+  font-family: 'Open Sans', sans-serif;
+}
+
+// ---- Position
+
+@mixin centralize {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

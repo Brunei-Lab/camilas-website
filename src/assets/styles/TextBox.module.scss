@@ -1,7 +1,8 @@
-@import './constants.scss';
+@import './common.scss';
 
 .TextBox {
-  margin-top: 26%;
+  margin-bottom: 0;
+  width: 90%;
   background-color: transparent !important;
   h1 {
     @include title-font;

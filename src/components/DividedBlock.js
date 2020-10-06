@@ -8,12 +8,12 @@ import styles from '../assets/styles/DividedBlock.module.scss';
 
 const DividedBlock = ({ type, text }) => {
   return (
-    <Container fluid className={styles.fullHeight}>
-      <Row className={styles.fullScreen}>
-        <Col sm={12} lg={6}>
+    <Container fluid className={styles.DividedBlock} >
+      <Row>
+        <Col className={styles.column} sm={12} lg={6}>
           { type === "imageLeft" ? <ImageBox /> : <TextBox text={text} /> }
         </Col>
-        <Col sm={12} lg={6} >
+        <Col className={styles.column} sm={12} lg={6} >
         { type === "imageLeft" ? <TextBox text={text} /> : <ImageBox /> }
         </Col>
       </Row>

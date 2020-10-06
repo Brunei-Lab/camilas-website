@@ -4,6 +4,10 @@ import Presentation from './components/Presentation';
 import DividedBlock from './components/DividedBlock';
 
 function App() {
+  const blockTypes = {
+    "imageLeft": "imageLeft",
+    "imageRight": "imageRight" 
+  }
   const contentsArray = [
     {
       title: "Quando procurar um psiquiatra?",
@@ -15,11 +19,12 @@ function App() {
                 dog then run away for annoy kitten brother with poking. `
     }
   ]
+
   return (
     <div className="App">
       <Navbar />
       <Presentation />
-      <DividedBlock text={contentsArray[0]}/>
+      <DividedBlock type={blockTypes.imageLeft} text={contentsArray[0]}/>
     </div>    
   );
 }

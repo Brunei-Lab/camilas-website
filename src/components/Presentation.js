@@ -18,7 +18,7 @@ const Presentation = () => {
     <div className={styles.Presentation}>
       <Container fluid className={styles.fullHeight}>
         <Row className={styles.fullScreen}>
-          <Col sm={12} lg={6}>
+          <Col className={styles.textContainer} sm={12} lg={6}>
             < TextBox text={text} button={true} />
           </Col>
           <Col className={`d-none d-lg-block ${styles["image-container"]}`} lg={6} >

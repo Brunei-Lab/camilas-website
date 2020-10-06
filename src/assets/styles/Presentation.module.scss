@@ -1,11 +1,15 @@
-@import './constants.scss';
+@import './common.scss';
 
 .Presentation {
   background-color: $blue;
   height: 90vh;
+  padding-left: 35px;
   overflow: hidden;
   .fullScreen {
     height: 90vh;
+    .textContainer {
+      @include centralize;
+    }
   }
   .image-container {
     height: inherit;
