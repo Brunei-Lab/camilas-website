@@ -9,7 +9,7 @@ const NavbarComponent = () => (
     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
       <Nav>
         <Nav.Link href="#home">Antendimentos</Nav.Link>
-        <Nav.Link href="#link">Curriculo</Nav.Link>
+        <Nav.Link href="#link">Currículo</Nav.Link>
         <Nav.Link href="#link">Contato</Nav.Link>
       </Nav>
     </Navbar.Collapse>

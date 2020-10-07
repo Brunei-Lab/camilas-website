@@ -1,0 +1,13 @@
+@import './common.scss';
+
+.Curriculum {
+  .cetralized {
+    @include centralize;
+  }
+  img {
+    border: 6px solid $blue;
+  }
+  h2, h4 {
+    text-align: center;
+  }
+}

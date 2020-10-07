@@ -62,8 +62,17 @@ const servicesArray = [
   },
 ]
 
+const curriculumArray = [
+  "Howl uncontrollably for no reason kitty kitty pussy cat doll.",
+  "Rub face on everything. Hack up furballs i is not fat, i is fluffy yet pounce on unsuspecting person.",
+  "Stare at owner accusingly then wink find a way to fit in tiny box purr when being pet meow.",
+  "Disappear for four days and return home with an expensive injury; bite the vet missing until dinner time.",
+  "Catch mouse and gave it as a present kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot."
+]
+
 export {
   PresentationText,
   contentsArray,
-  servicesArray
+  servicesArray,
+  curriculumArray
 };
