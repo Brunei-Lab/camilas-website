@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 
 const NavbarComponent = () => (
   <Navbar bg="light" expand="lg">
-    <Navbar.Brand href="#home">Dr. Camila Genz</Navbar.Brand>
+    <Navbar.Brand href="#home">Dra. Camila Genz</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
       <Nav>

@@ -5,10 +5,10 @@ import Col from 'react-bootstrap/Col';
 import styles from '../assets/styles/Presentation.module.scss';
 import HappyImage from '../assets/happy.png';
 import TextBox from './TextBox';
-import { PresentationText } from '../assets/lib/texts';
+import { PresentationText } from '../assets/lib/content';
 
 const Presentation = () => (
-  <div className={styles.Presentation}>
+  <div className={`${styles.Presentation} mb-5`}>
     <Container fluid className={styles.fullHeight}>
       <Row className={styles.fullScreen}>
         <Col className={styles.textContainer} sm={12} lg={6}>

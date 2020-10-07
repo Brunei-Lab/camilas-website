@@ -9,7 +9,25 @@
   img {
     position: absolute;
     top: 10%;
+  }
+}
+
+.imageLeft {
+  img {
     left: 8%;
+  }
+}
+
+.imageRight {
+  margin-left: 30px;
+  img {
+    left: -8%;
+  }
+}
+
+@include breakpoint(sm) { 
+  .imageRight {
+    margin-left: 8%;
   }
 }
 
@@ -17,10 +35,22 @@
   .ImageBox {
     width: 60%;
     padding-bottom: 53%;
-    margin-left: 17%;
     img {
       top: 12%;
+    }
+  }
+
+  .imageLeft {
+    margin-left: 17%;
+    img {
       left: 20%;
+    }
+  }
+  
+  .imageRight {
+    margin-left: 27%;
+    img {
+      left: -20%;
     }
   }
 }
@@ -30,10 +60,6 @@
     width: 73%;
     padding-bottom: 80%;
     margin-left: 0 !important;
-    img {
-      top: 12%;
-      left: 20%;
-    }
   }
 }
 

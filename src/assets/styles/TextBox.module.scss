@@ -19,16 +19,9 @@
 }
 
 .secondary {
-  padding-top: 4rem !important;
-  padding-right: 0 !important;
+  width: 100% !important;
+  padding-right: 1rem !important;
   font-size: 17px !important;
-}
-
-@include breakpoint(md) { 
-  .secondary {
-    padding-top: 5rem !important;
-    padding-left: 8rem !important;
-  }
 }
 
 @include breakpoint(lg) { 

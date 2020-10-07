@@ -1,3 +1,5 @@
+import thoughtsImage from '../images/thoughts.png';
+import therapyImage from '../images/therapy.png';
 import helpIcon from '../images/help-icon.svg';
 import psychologyIcon from '../images/psychology-icon.svg';
 
@@ -10,6 +12,7 @@ const PresentationText = {
 
 const contentsArray = [
   {
+    image: thoughtsImage,
     title: "Quando procurar um psiquiatra?",
     paragraph: `Cat ipsum dolor sit amet, rub my belly hiss and thug cat cats are fats 
               i like to pets them they like to meow back. While happily ignoring when 
@@ -17,6 +20,15 @@ const contentsArray = [
               kittens sleeping most of our time, we are around 15 weeks old i think, 
               i don’t know i can’t count poop on couch or stretch out on bed for chase 
               dog then run away for annoy kitten brother with poking. `
+  },
+  {
+    image: therapyImage,
+    title: "Como é o atendimento?",
+    paragraph: `Eat half my food and ask for more need to check on human, have not seen 
+                in an hour might be dead oh look, human is alive, hiss at human, feed me 
+                howl uncontrollably for no reason shake treat bag make plans to dominate 
+                world and then take a nap so love blinks and purr purr purr purr yawn but 
+                sit in a box for hours.  `
   }
 ]
 
