@@ -1,3 +1,6 @@
+import helpIcon from '../images/help-icon.svg';
+import psychologyIcon from '../images/psychology-icon.svg';
+
 const PresentationText = {
   title: "Dra. Camila Genz",
   paragraph: `Cat ipsum dolor sit amet, get scared by doggo also cucumerro. 
@@ -17,7 +20,38 @@ const contentsArray = [
   }
 ]
 
+const servicesArray = [
+  {
+    image: psychologyIcon,
+    title: "Psicoterapia",
+    paragraph: `Pet my belly, you know you want to; seize the hand and shred it! 
+                eat a rug and furry furry hairs everywhere oh no human coming lie 
+                on counter don't get off counter.`
+  },
+  {
+    image: helpIcon,
+    title: "Algum atendimento",
+    paragraph: `Attack feet asdflkjaertvlkjasntvkjn (sits on keyboard) 
+                for eat the fat cats food.`
+  },
+  {
+    image: helpIcon,
+    title: "Outro atendimento",
+    paragraph: `Meow and walk away wake up wander around the house making large 
+                amounts of noise jump on top of your human's bed and fall asleep 
+                again.`
+  },
+  {
+    image: psychologyIcon,
+    title: "Mais um atendimento",
+    paragraph: `Bathe private parts with tongue then lick owner's face or fall 
+                over dead (not really but gets sypathy). Pee in human's bed until 
+                he cleans the litter box`
+  },
+]
+
 export {
   PresentationText,
-  contentsArray
+  contentsArray,
+  servicesArray
 };

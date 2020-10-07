@@ -12,7 +12,7 @@ const Presentation = () => (
     <Container fluid className={styles.fullHeight}>
       <Row className={styles.fullScreen}>
         <Col className={styles.textContainer} sm={12} lg={6}>
-          < TextBox type="primary" text={PresentationText}/>
+          <TextBox type="primary" text={PresentationText}/>
         </Col>
         <Col className={`d-none d-lg-block ${styles["image-container"]}`} lg={6} >
           <img src={HappyImage} alt="Woman looking happy and relaxed with arms over head" />
