@@ -8,7 +8,7 @@ import styles from '../assets/styles/DividedBlock.module.scss';
 
 const DividedBlock = ({ type, text }) => {
   return (
-    <Container fluid className={styles.DividedBlock} >
+    <Container fluid className={`${styles.DividedBlock} mt-5`} >
       <Row>
         <Col className={styles.column} sm={12} lg={6}>
           { type === "imageLeft" ? <ImageBox /> : <TextBox text={text} /> }

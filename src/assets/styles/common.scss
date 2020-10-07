@@ -40,10 +40,13 @@ $coral: #d2b0b0;
 
 h1 {
   @include font-size(2.5rem);
+  @include title-font;
 }
 
-h1 {
+h2 {
   @include font-size(2rem);
+  @include title-font;
+  font-weight: bold
 }
 
 p {
