@@ -14,7 +14,7 @@ const DividedBlock = ({ type, text }) => {
           { type === "imageLeft" ? <ImageBox /> : <TextBox text={text} /> }
         </Col>
         <Col className={styles.column} sm={12} lg={6} >
-        { type === "imageLeft" ? <TextBox text={text} /> : <ImageBox /> }
+        { type === "imageLeft" ? <TextBox type="secondary" text={text} /> : <ImageBox /> }
         </Col>
       </Row>
     </Container>

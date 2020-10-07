@@ -3,13 +3,13 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import Button from 'react-bootstrap/Button';
 import styles from '../assets/styles/TextBox.module.scss';
 
-const TextBox = ({ text, button }) => (
-  <Jumbotron className={`${styles.TextBox} mb-0`}>
-    <h1 className="mb-3">{text.title}</h1>
+const TextBox = ({ type, text }) => (
+  <Jumbotron className={`${styles.TextBox} mb-0 ${styles[type]}`}>
+    { type === "primary" ? <h1 className="mb-3">{text.title}</h1> : <h2 className="mb-3">{text.title}</h2> }
     <p>
       {text.paragraph}
     </p>
-    { button && <p><Button className="mt-4" variant="light">Entre em contato</Button></p> }
+    { type === "primary" && <p><Button className="mt-4" variant="light">Entre em contato</Button></p> }
   </Jumbotron>
 )
 

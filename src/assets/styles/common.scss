@@ -10,6 +10,9 @@ $coral: #d2b0b0;
 // ---- Breakpoint
 
 @mixin breakpoint($point) {
+  @if $point == xxl {
+    @media (min-width: 1800px) { @content ; }
+  }
   @if $point == xl {
     @media (min-width: 1200px) { @content ; }
   }
@@ -37,6 +40,10 @@ $coral: #d2b0b0;
 
 h1 {
   @include font-size(2.5rem);
+}
+
+h1 {
+  @include font-size(2rem);
 }
 
 p {

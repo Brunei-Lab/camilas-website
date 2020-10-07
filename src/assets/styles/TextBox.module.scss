@@ -15,4 +15,18 @@
     font-size: 19px;
     color: #000;
   }
+  
+}
+
+@include breakpoint(md) { 
+  .secondary {
+    padding-top: 5rem !important;
+    padding-left: 8rem !important;
+  }
+}
+
+@include breakpoint(md) { 
+  .secondary {
+    padding-left: 3rem !important;
+  }
 }

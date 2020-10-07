@@ -36,3 +36,11 @@
     }
   }
 }
+
+@include breakpoint(xxl) { 
+  .ImageBox {
+    img {
+      top: 15%;
+    }
+  }
+}

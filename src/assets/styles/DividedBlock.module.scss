@@ -2,11 +2,18 @@
 
 .DividedBlock {
   margin: 20px 0;
-  @include breakpoint(lg) { 
-    margin: 60px 0;
+}
+
+@include breakpoint(md) { 
+  .DividedBlock {
+    margin: 40px 0;
   }
-  .column {
-    @include breakpoint(lg) { 
+}
+
+@include breakpoint(lg) { 
+  .DividedBlock {
+    margin: 60px 0;
+    .column {
       @include centralize;
     }
   }
