@@ -12,13 +12,13 @@
   }
 }
 
-.imageLeft {
+.left {
   img {
     left: 8%;
   }
 }
 
-.imageRight {
+.right {
   margin-left: 30px;
   img {
     left: -8%;
@@ -26,7 +26,7 @@
 }
 
 @include breakpoint(sm) { 
-  .imageRight {
+  .right {
     margin-left: 8%;
   }
 }
@@ -40,14 +40,14 @@
     }
   }
 
-  .imageLeft {
+  .left {
     margin-left: 17%;
     img {
       left: 20%;
     }
   }
   
-  .imageRight {
+  .right {
     margin-left: 27%;
     img {
       left: -20%;

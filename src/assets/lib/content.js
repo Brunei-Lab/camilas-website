@@ -70,9 +70,23 @@ const curriculumArray = [
   "Catch mouse and gave it as a present kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot."
 ]
 
+const locationsInfo = [
+  {
+    coord: { lat: -29.604397, lng: -52.191096 },
+    title: "Venâncio Aires",
+    paragraph: "R. Tiradentes, 471 - Centro"
+  },
+  {
+    coord: { lat: -30.042558, lng: -51.187649  },
+    title: "Porto Alegre",
+    paragraph: "Av. Itaqui, 89 - Petrópolis"
+  }
+]
+
 export {
   PresentationText,
   contentsArray,
   servicesArray,
-  curriculumArray
+  curriculumArray,
+  locationsInfo
 };
