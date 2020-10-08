@@ -13,7 +13,7 @@ const Curriculum = () => (
       <Col className={styles.cetralized} sm={12} lg={5}>
         <Image src={CamilaPicture} roundedCircle />
       </Col>
-      <Col className="mt-5 pr-5" sm={12} lg={6} >
+      <Col className="mt-5 pr-4 pr-lg-5" sm={12} lg={6} >
         <h2>Currículo</h2>
         <h4>Dra. Camila Genz Kistemacher</h4>
         <ul className="mt-3">
