@@ -1,0 +1,40 @@
+@import './common.scss';
+
+.ContactContainer {
+  .textContainer {
+    margin-top: 8%;
+    width: 40%;
+    @include centralize;
+    p {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.ContactForm {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  float: right;
+  input {
+    width: 33%;
+    height: 40px;
+    margin-right: 0.5%;
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+  textarea {
+    width: 100%;
+    resize: none;
+    height: 130px;
+    padding: 5px;
+  }
+  button {
+    width: 100%;
+    border: none;
+    background-color: $blue;
+    height: 40px;
+    border-radius: 3px;
+  }
+}

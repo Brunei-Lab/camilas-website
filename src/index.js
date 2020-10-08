@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import { StaticKitProvider } from '@statickit/react';
 import * as serviceWorker from './serviceWorker';
 import './assets/styles/index.scss';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <StaticKitProvider site="c85e136e5bc9">
+      <App />
+    </StaticKitProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
