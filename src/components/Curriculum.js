@@ -8,15 +8,16 @@ import styles from '../assets/styles/Curriculum.module.scss';
 import CamilaPicture from '../assets/images/camila.png';
 
 const Curriculum = () => (
-  <Container fluid className={`${styles.Curriculum} my-5`} >
+  <Container fluid className={`${styles.Curriculum} py-lg-5`} >
     <Row>
-      <Col className={styles.cetralized} sm={12} lg={5}>
+      <Col className="d-none d-lg-block" lg={1} />
+      <Col className={styles.cetralized} sm={12} lg={4}>
         <Image src={CamilaPicture} roundedCircle />
       </Col>
       <Col className="mt-5 pr-4 pr-lg-5" sm={12} lg={6} >
         <h2>Currículo</h2>
         <h4>Dra. Camila Genz Kistemacher</h4>
-        <ul className="mt-3">
+        <ul className="mt-3 mx-3 mx-md-5 mx-lg-0">
           { curriculumArray.map(item => (
             <li>{ item }</li>
           ))}

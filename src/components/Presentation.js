@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import styles from '../assets/styles/Presentation.module.scss';
-import HappyImage from '../assets/happy.png';
+import HappyImage from '../assets/images/happy.png';
 import TextBox from './TextBox';
 import { PresentationText } from '../assets/lib/content';
 
