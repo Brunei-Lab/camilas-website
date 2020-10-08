@@ -1,5 +1,6 @@
 import React from 'react';
 import { useGoogleMaps } from 'react-hook-google-maps';
+import styles from '../assets/styles/MapContainer.module.scss';
 
 const MapContainer = ({ position }) => {
   const { ref, map, google } = useGoogleMaps(
@@ -15,7 +16,7 @@ const MapContainer = ({ position }) => {
   }
 
   return (
-    <div ref={ref} style={{ width: 400, height: 300 }} />
+    <div className={styles.MapContainer} ref={ref} />
   )
 }
 

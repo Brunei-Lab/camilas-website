@@ -1,0 +1,14 @@
+@import './common.scss';
+
+.LocationsContainer {
+  .centralized {
+    @include centralize;
+    .adress {
+      margin: 30px 0;
+      text-align: center;
+      p {
+        margin-bottom: 0 !important;
+      }
+    }
+  }
+}

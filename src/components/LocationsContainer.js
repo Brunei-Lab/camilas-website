@@ -7,20 +7,25 @@ import MapContainer from './MapContainer';
 import styles from '../assets/styles/LocationsContainer.module.scss';
 
 const LocationsContainer = () => {
-  const columnNum = 12/locationsInfo.length
+  const columnNum = 8/locationsInfo.length
 
   return (
     <Container fluid className={`${styles.LocationsContainer} py-lg-5`} >
-      <Row>
+      <h1 className="text-center">Atendimento</h1>
+      <Row className="py-5">
+        <Col className="d-none d-lg-block" lg={2} />
         { locationsInfo.map(location => (
-          <Col sm={12} lg={{columnNum}}>
+          <Col className={styles.centralized} sm={12} lg={{columnNum}}>
             <MapContainer position={location.coord} />
-            <div>
-              <h3>{location.title}</h3>
-              <p>{location.paragraph}</p>
+            <div className={styles.adress}>
+              <h4>{location.title}</h4>
+              { location.paragraph.map(p => (
+                <p>{p}</p>
+              ))}
             </div>
           </Col>
         ))}
+        <Col className="d-none d-lg-block" lg={2} />
       </Row>
     </Container>
   )

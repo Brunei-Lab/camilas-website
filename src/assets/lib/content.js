@@ -74,12 +74,12 @@ const locationsInfo = [
   {
     coord: { lat: -29.604397, lng: -52.191096 },
     title: "Venâncio Aires",
-    paragraph: "R. Tiradentes, 471 - Centro"
+    paragraph: ["R. Tiradentes, 471 - Centro", "(51) 3741-6467"]
   },
   {
     coord: { lat: -30.042558, lng: -51.187649  },
     title: "Porto Alegre",
-    paragraph: "Av. Itaqui, 89 - Petrópolis"
+    paragraph: ["Av. Itaqui, 89 - Petrópolis", "(51) 98418-5026"]
   }
 ]
 

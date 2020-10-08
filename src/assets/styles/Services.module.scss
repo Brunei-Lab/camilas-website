@@ -1,5 +1,8 @@
+@import "./common.scss";
+
 .Services {
   text-align: center;
+  // @include backgroundBlue;
   .servicesContainer {
     width: 80%;
     margin: 0 auto;

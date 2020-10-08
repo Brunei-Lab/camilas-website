@@ -1,14 +1,26 @@
 @import './common.scss';
 
 .Curriculum {
+  position: relative;
+  // @include backgroundBlue;
   .cetralized {
     @include centralize;
   }
   img {
     width: 350px;
     border: 6px solid $blue;
+    &::after {
+      content: "";
+      background-color: lightgreen;
+      position: absolute;
+      height: 120%;
+      width: 120%;
+    }
   }
   h2, h4 {
     text-align: center;
+  }
+  ul {
+    line-height: 32px;
   }
 }

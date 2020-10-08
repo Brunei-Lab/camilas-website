@@ -58,10 +58,37 @@ p {
   @include font-size(19px);
 }
 
+// ---- Background
+
+@mixin backgroundBlue {
+  background-color: #bbd9e3ab;
+}
+
+@mixin backgroundGrey{
+  background-color: #edeeee17;
+}
+
+// @mixin texturedBackground {
+//   content: ' ';
+//   display: block;
+//   position: absolute;
+//   left: 0;
+//   top: 0;
+//   width: 100%;
+//   height: 100%;
+//   z-index: 1;
+//   opacity: 0.6;
+//   background-image: url(../images/background.png);
+//   background-repeat: no-repeat;
+//   background-position: 50% 0;
+//   background-size: cover;
+// }
+
 // ---- Position
 
 @mixin centralize {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
